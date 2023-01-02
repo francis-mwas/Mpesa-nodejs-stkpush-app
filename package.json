@@ -1,0 +1,26 @@
+{
+  "name": "mpesa-online-payment-integration",
+  "version": "1.0.0",
+  "description": "Mpesa stk push implementation for online payments",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "ngrok": "ngrok http 5000",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mpesa-online-payment-integration"
+  },
+  "author": "francis-mwas",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ngrok": "^3.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
